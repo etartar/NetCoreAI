@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="NetCoreAI.Project01.OpenAIChat/NetCoreAI.Project01.OpenAIChat.csproj" />
+  <Project Path="NetCoreAI.Project02.OpenWhisperAudioTranskript/NetCoreAI.Project02.OpenWhisperAudioTranskript.csproj" Id="cf4c0bf7-29c9-416a-93a0-8f1014805c55" />
+</Solution>
