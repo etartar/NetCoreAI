@@ -1,4 +1,4 @@
-# 🔍 Tesseract OCR Nedir?
+# 🔍 NetCoreAI.Project04.TesseractOcr - Tesseract
 
 Tesseract, açık kaynaklı bir OCR (Optical Character Recognition - Optik Karakter Tanıma) motorudur. OCR, Görüntülerdeki veya taranmış belgelerdeki metinleri tanımak ve dijital metne dönüştürmek için kullanılan bir teknolojidir. Tesseract, Google tarafından geliştirilmiş ve desteklenmektedir.
 
@@ -232,7 +232,7 @@ Bu proje eğitim amaçlıdır.
 
 ## 👨‍💻 Geliştirici
 
-**Emir Tartar**
+**Emir TARTAR**
 - GitHub: [@etartar](https://github.com/etartar)
 
 ---

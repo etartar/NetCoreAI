@@ -125,7 +125,7 @@ Bu proje eğitim amaçlıdır.
 
 ## 👨‍💻 Geliştirici
 
-**Emir Tartar**
+**Emir TARTAR**
 - GitHub: [@etartar](https://github.com/etartar)
 
 ---
