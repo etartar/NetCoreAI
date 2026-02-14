@@ -8,4 +8,6 @@
   <Project Path="NetCoreAI.Project04.TesseractOcr/NetCoreAI.Project04.TesseractOcr.csproj" Id="14bc1a43-dba2-4340-9b2e-3e1e13b3bf6a" />
   <Project Path="NetCoreAI.Project05.GoogleCloudVision/NetCoreAI.Project05.GoogleCloudVision.csproj" Id="88e7ea8b-9f3f-477b-8f9f-23ace956ef5e" />
   <Project Path="NetCoreAI.Project06.OpenAITranslate/NetCoreAI.Project06.OpenAITranslate.csproj" Id="0ce394c6-2a7f-4406-b485-ccc829e61762" />
+  <Project Path="NetCoreAI.Project07.TextToSpeech/NetCoreAI.Project07.TextToSpeech.csproj" Id="aaa02986-7a02-4c75-852d-40bba0c5b312" />
+  <Project Path="NetCoreAI.Project08.TextToSpeechWithOpenAI/NetCoreAI.Project08.TextToSpeechWithOpenAI.csproj" Id="d6e63916-21ff-46df-8a48-a5213504ebd0" />
 </Solution>
