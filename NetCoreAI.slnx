@@ -1,4 +1,6 @@
 <Solution>
   <Project Path="NetCoreAI.Project01.OpenAIChat/NetCoreAI.Project01.OpenAIChat.csproj" />
   <Project Path="NetCoreAI.Project02.OpenWhisperAudioTranskript/NetCoreAI.Project02.OpenWhisperAudioTranskript.csproj" Id="cf4c0bf7-29c9-416a-93a0-8f1014805c55" />
+  <Project Path="NetCoreAI.Project03.DALL-EImageGeneration/NetCoreAI.Project03.DALL-EImageGeneration.csproj" Id="01ca44eb-ea9a-458a-9007-3374d2fc00b2" />
+  <Project Path="NetCoreAI.Project04.TesseractOcr/NetCoreAI.Project04.TesseractOcr.csproj" Id="14bc1a43-dba2-4340-9b2e-3e1e13b3bf6a" />
 </Solution>
