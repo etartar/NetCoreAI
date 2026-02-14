@@ -10,4 +10,6 @@
   <Project Path="NetCoreAI.Project06.OpenAITranslate/NetCoreAI.Project06.OpenAITranslate.csproj" Id="0ce394c6-2a7f-4406-b485-ccc829e61762" />
   <Project Path="NetCoreAI.Project07.TextToSpeech/NetCoreAI.Project07.TextToSpeech.csproj" Id="aaa02986-7a02-4c75-852d-40bba0c5b312" />
   <Project Path="NetCoreAI.Project08.TextToSpeechWithOpenAI/NetCoreAI.Project08.TextToSpeechWithOpenAI.csproj" Id="d6e63916-21ff-46df-8a48-a5213504ebd0" />
+  <Project Path="NetCoreAI.Project09.SentimentAIApp/NetCoreAI.Project09.SentimentAIApp.csproj" Id="b64b7b9a-8852-43ca-a9c0-7d90e5604176" />
+  <Project Path="NetCoreAI.Project10.SentimentAIAppWithDegree/NetCoreAI.Project10.SentimentAIAppWithDegree.csproj" Id="4f86a2ab-4a0b-48ef-9fab-0669443c5060" />
 </Solution>

@@ -8,7 +8,7 @@
 
 ## 📚 Projeler
 
-Bu repository 5 farklı AI projesini içermektedir:
+Bu repository 10 farklı AI projesini içermektedir:
 
 ### 1️⃣ [OpenAI Chat](./NetCoreAI.Project01.OpenAIChat) 💬
 OpenAI GPT-3.5-turbo API kullanarak yapay zeka destekli sohbet uygulaması.
@@ -87,12 +87,97 @@ Google Cloud Vision API ile bulut tabanlı güçlü görüntü analizi ve metin 
 
 ---
 
+### 6️⃣ [OpenAI Translate](./NetCoreAI.Project06.OpenAITranslate) 🌍
+OpenAI GPT-3.5-turbo API ile çok dilli metin çevirisi.
+
+**Özellikler:**
+- ✅ Çok dilli çeviri desteği
+- ✅ Doğal ve akıcı çeviriler
+- ✅ 50+ dil desteği
+- ✅ User Secrets ile güvenli API key yönetimi
+
+**Kullanım Alanları:**
+- Belge çevirisi
+- Çok dilli içerik üretimi
+- Uluslararası iletişim
+- Yerelleştirme projeleri
+
+---
+
+### 7️⃣ [Text to Speech](./NetCoreAI.Project07.TextToSpeech) 🔊
+System.Speech kütüphanesi ile offline metin okuma.
+
+**Özellikler:**
+- ✅ Offline çalışma (API gerektirmez)
+- ✅ Ayarlanabilir ses seviyesi ve hızı
+- ✅ Basit ve hızlı kullanım
+- ✅ Windows yerleşik sesler
+
+**Kullanım Alanları:**
+- Offline metin okuma
+- Erişilebilirlik uygulamaları
+- Test ve prototipleme
+- Eğitim materyalleri
+
+---
+
+### 8️⃣ [Text to Speech with OpenAI](./NetCoreAI.Project08.TextToSpeechWithOpenAI) 🎙️
+OpenAI TTS API ile profesyonel kalitede ses üretimi.
+
+**Özellikler:**
+- ✅ 6 farklı profesyonel ses seçeneği
+- ✅ Yüksek kaliteli MP3 çıktısı
+- ✅ Çok dilli destek
+- ✅ TTS-1 ve TTS-1-HD modelleri
+
+**Kullanım Alanları:**
+- Podcast üretimi
+- Sesli kitap oluşturma
+- Profesyonel anons sistemleri
+- E-öğrenme içerikleri
+
+---
+
+### 9️⃣ [Sentiment Analysis](./NetCoreAI.Project09.SentimentAIApp) 😊
+OpenAI ile basit ve hızlı duygu analizi.
+
+**Özellikler:**
+- ✅ Positive/Negative/Neutral kategorizasyonu
+- ✅ Hızlı analiz
+- ✅ Çok dilli destek
+- ✅ Basit çıktı formatı
+
+**Kullanım Alanları:**
+- Müşteri yorumu filtreleme
+- Sosyal medya takibi
+- Gerçek zamanlı duygu analizi
+- Hızlı kategorizasyon
+
+---
+
+### 🔟 [Advanced Sentiment Analysis](./NetCoreAI.Project10.SentimentAIAppWithDegree) 📊
+OpenAI ile gelişmiş duygu analizi ve skorlama.
+
+**Özellikler:**
+- ✅ 6 duygu kategorisi (Joy, Sadness, Anger, Fear, Surprise, Neutral)
+- ✅ Her duygu için %0-100 skor
+- ✅ JSON formatında detaylı sonuçlar
+- ✅ Duygu profili çıkarma
+
+**Kullanım Alanları:**
+- Detaylı pazar araştırması
+- Müşteri deneyimi analizi
+- Mental sağlık uygulamaları
+- Akademik araştırmalar
+
+---
+
 ## 🚀 Hızlı Başlangıç
 
 ### Gereksinimler
 
 - [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0)
-- [OpenAI API Key](https://platform.openai.com/api-keys) (Project 01, 02, 03 için)
+- [OpenAI API Key](https://platform.openai.com/api-keys) (Project 01, 02, 03, 06, 08, 09, 10 için)
 - [Tesseract OCR Engine](https://github.com/UB-Mannheim/tesseract/wiki) (Project 04 için)
 - [Google Cloud Account](https://console.cloud.google.com/) (Project 05 için)
 
@@ -119,7 +204,29 @@ dotnet user-secrets set "OpenAI:ApiKey" "YOUR_API_KEY"
 # Project 03
 cd ../NetCoreAI.Project03.DALL-EImageGeneration
 dotnet user-secrets set "OpenAI:ApiKey" "YOUR_API_KEY"
+
+# Project 06
+cd ../NetCoreAI.Project06.OpenAITranslate
+dotnet user-secrets set "OpenAI:ApiKey" "YOUR_API_KEY"
+
+# Project 08
+cd ../NetCoreAI.Project08.TextToSpeechWithOpenAI
+dotnet user-secrets set "OpenAI:ApiKey" "YOUR_API_KEY"
+
+# Project 09
+cd ../NetCoreAI.Project09.SentimentAIApp
+dotnet user-secrets set "OpenAI:ApiKey" "YOUR_API_KEY"
+
+# Project 10
+cd ../NetCoreAI.Project10.SentimentAIAppWithDegree
+dotnet user-secrets set "OpenAI:ApiKey" "YOUR_API_KEY"
 ```
+
+**Tesseract OCR için (Project 04):**
+
+1. [Tesseract OCR](https://github.com/UB-Mannheim/tesseract/wiki) uygulamasını kurun
+2. Dil paketlerini indirin
+3. PATH değişkenine Tesseract klasörünü ekleyin
 
 **Google Cloud Vision için (Project 05):**
 
@@ -149,14 +256,15 @@ dotnet run
 
 ## 📦 Kullanılan Teknolojiler
 
-| Teknoloji | Versiyon | Açıklama |
-|-----------|----------|----------|
-| .NET | 10.0 | Ana framework |
-| C# | 14.0 | Programlama dili |
-| OpenAI API | Latest | GPT, Whisper, DALL-E servisleri |
-| Tesseract | 5.2.0 | OCR motoru (offline) |
-| Google Cloud Vision | 3.8.0 | Bulut tabanlı OCR ve görüntü analizi |
-| User Secrets | 9.0.0+ | Güvenli yapılandırma yönetimi |
+| Teknoloji | Versiyon | Açıklama | Kullanıldığı Projeler |
+|-----------|----------|----------|-----------------------|
+| .NET | 10.0 | Ana framework | Tüm projeler |
+| C# | 14.0 | Programlama dili | Tüm projeler |
+| OpenAI API | Latest | GPT, Whisper, DALL-E, TTS servisleri | 01, 02, 03, 06, 08, 09, 10 |
+| Tesseract | 5.2.0 | OCR motoru (offline) | 04 |
+| Google Cloud Vision | 3.8.0 | Bulut tabanlı OCR ve görüntü analizi | 05 |
+| System.Speech | 10.0.3 | Offline TTS (Windows) | 07 |
+| User Secrets | 10.0.3 | Güvenli yapılandırma yönetimi | Tüm projeler |
 
 ## 🔒 Güvenlik
 
@@ -186,6 +294,8 @@ OpenAI API kullanımı ücretlidir. Güncel fiyatlandırma:
 | Whisper | $0.006 / dakika |
 | DALL-E 2 | $0.018-0.020 / görsel |
 | DALL-E 3 | $0.040-0.120 / görsel |
+| TTS-1 | $15.00 / 1M karakter |
+| TTS-1-HD | $30.00 / 1M karakter |
 
 Detaylı fiyatlandırma için: [OpenAI Pricing](https://openai.com/pricing)
 
@@ -210,6 +320,11 @@ Her proje için detaylı README dosyaları mevcuttur:
 - 📄 [Project03 - DALL-E Image Generation README](./NetCoreAI.Project03.DALL-EImageGeneration/README.md)
 - 📄 [Project04 - Tesseract OCR README](./NetCoreAI.Project04.TesseractOcr/README.md)
 - 📄 [Project05 - Google Cloud Vision OCR README](./NetCoreAI.Project05.GoogleCloudVision/README.md)
+- 📄 [Project06 - OpenAI Translate README](./NetCoreAI.Project06.OpenAITranslate/README.md)
+- 📄 [Project07 - Text to Speech README](./NetCoreAI.Project07.TextToSpeech/README.md)
+- 📄 [Project08 - Text to Speech with OpenAI README](./NetCoreAI.Project08.TextToSpeechWithOpenAI/README.md)
+- 📄 [Project09 - Sentiment Analysis README](./NetCoreAI.Project09.SentimentAIApp/README.md)
+- 📄 [Project10 - Advanced Sentiment Analysis README](./NetCoreAI.Project10.SentimentAIAppWithDegree/README.md)
 
 ## 🛠️ Geliştirme
 
@@ -236,6 +351,26 @@ NetCoreAI/
 ├── NetCoreAI.Project05.GoogleCloudVision/
 │   ├── Program.cs
 │   ├── NetCoreAI.Project05.GoogleCloudVision.csproj
+│   └── README.md
+├── NetCoreAI.Project06.OpenAITranslate/
+│   ├── Program.cs
+│   ├── NetCoreAI.Project06.OpenAITranslate.csproj
+│   └── README.md
+├── NetCoreAI.Project07.TextToSpeech/
+│   ├── Program.cs
+│   ├── NetCoreAI.Project07.TextToSpeech.csproj
+│   └── README.md
+├── NetCoreAI.Project08.TextToSpeechWithOpenAI/
+│   ├── Program.cs
+│   ├── NetCoreAI.Project08.TextToSpeechWithOpenAI.csproj
+│   └── README.md
+├── NetCoreAI.Project09.SentimentAIApp/
+│   ├── Program.cs
+│   ├── NetCoreAI.Project09.SentimentAIApp.csproj
+│   └── README.md
+├── NetCoreAI.Project10.SentimentAIAppWithDegree/
+│   ├── Program.cs
+│   ├── NetCoreAI.Project10.SentimentAIAppWithDegree.csproj
 │   └── README.md
 └── README.md
 ```
