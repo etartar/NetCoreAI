@@ -12,4 +12,11 @@
   <Project Path="NetCoreAI.Project08.TextToSpeechWithOpenAI/NetCoreAI.Project08.TextToSpeechWithOpenAI.csproj" Id="d6e63916-21ff-46df-8a48-a5213504ebd0" />
   <Project Path="NetCoreAI.Project09.SentimentAIApp/NetCoreAI.Project09.SentimentAIApp.csproj" Id="b64b7b9a-8852-43ca-a9c0-7d90e5604176" />
   <Project Path="NetCoreAI.Project10.SentimentAIAppWithDegree/NetCoreAI.Project10.SentimentAIAppWithDegree.csproj" Id="4f86a2ab-4a0b-48ef-9fab-0669443c5060" />
+  <Project Path="NetCoreAI.Project11.ArticleSummarizeAI/NetCoreAI.Project11.ArticleSummarizeAI.csproj" Id="cdde28f2-cee4-4928-b0c6-cce4cda359c9" />
+  <Project Path="NetCoreAI.Project12.WebScrapingWithOpenAI/NetCoreAI.Project12.WebScrapingWithOpenAI.csproj" Id="2f88da66-7d20-42f4-8b9b-191938ea1d6e" />
+  <Project Path="NetCoreAI.Project13.PdfAnalyzeWithOpenAI/NetCoreAI.Project13.PdfAnalyzeWithOpenAI.csproj" Id="450f27ea-19f1-44b8-9e77-def5fde26676" />
+  <Project Path="NetCoreAI.Project14.GoogleCloudVisionImageDetection/NetCoreAI.Project14.GoogleCloudVisionImageDetection.csproj" Id="dfcf5f7d-1d8f-4869-bd81-0e63ce982f54" />
+  <Project Path="NetCoreAI.Project15.OpenAINewsSummarizeWithRss/NetCoreAI.Project15.OpenAINewsSummarizeWithRss.csproj" Id="36f3aa1e-2cd2-4e2f-9e1a-2eb1809f1ceb" />
+  <Project Path="NetCoreAI.Project16.CreateStoryWithAI/NetCoreAI.Project16.CreateStoryWithAI.csproj" Id="1ef258e7-4f9f-4d68-9286-41b9bbc3b98b" />
+  <Project Path="NetCoreAI.Project17.RecipeSuggestionWithOpenAI/NetCoreAI.Project17.RecipeSuggestionWithOpenAI.csproj" Id="9d28b111-3c29-4892-b51f-d1980f07ace4" />
 </Solution>

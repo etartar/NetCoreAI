@@ -1,6 +1,6 @@
 # 🤖 NetCoreAI - Yapay Zeka Projeleri Koleksiyonu
 
-.NET 10 ile geliştirilmiş OpenAI, Google Cloud Vision ve Tesseract OCR entegrasyonlarını içeren kapsamlı AI projeleri koleksiyonu.
+.NET 10 ile geliştirilmiş OpenAI, Google Cloud Vision ve Tesseract OCR entegrasyonlarını içeren kapsamlı AI projeleri koleksiyonu. 17 farklı proje ile chatbot'lardan görüntü analizine, metin özetlemeden yemek tarifi önerisine kadar geniş bir yelpazede AI uygulamaları.
 
 ![.NET](https://img.shields.io/badge/.NET-10.0-512BD4?style=flat-square&logo=dotnet)
 ![C#](https://img.shields.io/badge/C%23-14.0-239120?style=flat-square&logo=c-sharp)
@@ -8,7 +8,7 @@
 
 ## 📚 Projeler
 
-Bu repository 10 farklı AI projesini içermektedir:
+Bu repository 17 farklı AI projesini içermektedir:
 
 ### 1️⃣ [OpenAI Chat](./NetCoreAI.Project01.OpenAIChat) 💬
 OpenAI GPT-3.5-turbo API kullanarak yapay zeka destekli sohbet uygulaması.
@@ -172,14 +172,133 @@ OpenAI ile gelişmiş duygu analizi ve skorlama.
 
 ---
 
+### 1️⃣1️⃣ [Article Summarizer](./NetCoreAI.Project11.ArticleSummarizeAI) 📝
+OpenAI GPT-3.5-turbo ile uzun metinleri farklı detay seviyelerinde özetleme.
+
+**Özellikler:**
+- ✅ 3 farklı özet seviyesi (Kısa, Orta, Detaylı)
+- ✅ Akıllı metin analizi
+- ✅ Paralel özet üretimi
+- ✅ Akademik makale desteği
+
+**Kullanım Alanları:**
+- Akademik araştırma
+- İş raporları özetleme
+- Blog içeriği hazırlama
+- Hızlı bilgi edinme
+
+---
+
+### 1️⃣2️⃣ [Web Scraping with OpenAI](./NetCoreAI.Project12.WebScrapingWithOpenAI) 🌐
+HtmlAgilityPack ve OpenAI ile web sayfalarından içerik çekme ve analiz.
+
+**Özellikler:**
+- ✅ HtmlAgilityPack ile web scraping
+- ✅ AI destekli içerik analizi
+- ✅ Otomatik HTML temizleme
+- ✅ Türkçe çıktı desteği
+
+**Kullanım Alanları:**
+- Rakip analizi
+- İçerik araştırması
+- Haber toplama
+- Veri madenciliği
+
+---
+
+### 1️⃣3️⃣ [PDF Analyzer with OpenAI](./NetCoreAI.Project13.PdfAnalyzeWithOpenAI) 📄
+PdfPig ve OpenAI ile PDF dosyalarını okuma ve analiz etme.
+
+**Özellikler:**
+- ✅ PdfPig ile PDF metin çıkarma
+- ✅ Çok sayfalı PDF desteği
+- ✅ AI ile içerik özetleme
+- ✅ Türkçe analiz desteği
+
+**Kullanım Alanları:**
+- Belge analizi
+- Akademik makale özetleme
+- Sözleşme inceleme
+- Rapor değerlendirme
+
+---
+
+### 1️⃣4️⃣ [Google Vision Image Detection](./NetCoreAI.Project14.GoogleCloudVisionImageDetection) 👁️
+Google Cloud Vision API ile görsel nesne tespiti ve etiketleme.
+
+**Özellikler:**
+- ✅ Nesne ve etiket algılama
+- ✅ Yüksek doğruluk oranı
+- ✅ JSON formatında sonuçlar
+- ✅ Çoklu görsel desteği
+
+**Kullanım Alanları:**
+- Ürün kategorileme
+- Görsel arama
+- İçerik moderasyonu
+- Otomatik etiketleme
+
+---
+
+### 1️⃣5️⃣ [RSS News Summarizer](./NetCoreAI.Project15.OpenAINewsSummarizeWithRss) 📰
+RSS feed'lerden haber çekip OpenAI GPT-4-turbo ile özetleme.
+
+**Özellikler:**
+- ✅ RSS feed parsing
+- ✅ Çoklu haber işleme
+- ✅ GPT-4-turbo ile özetleme
+- ✅ Türkçe özet desteği
+
+**Kullanım Alanları:**
+- Günlük haber özetleri
+- Medya takibi
+- İçerik küratörlüğü
+- Trend analizi
+
+---
+
+### 1️⃣6️⃣ [Story Generator with AI](./NetCoreAI.Project16.CreateStoryWithAI) ✍️
+OpenAI GPT-4-turbo ile özelleştirilebilir yaratıcı hikaye üretimi.
+
+**Özellikler:**
+- ✅ Özelleştirilebilir hikaye türü
+- ✅ Ana karakter ve mekan seçimi
+- ✅ Uzunluk kontrolü (kısa/orta/uzun)
+- ✅ Giriş-gelişme-sonuç yapısı
+
+**Kullanım Alanları:**
+- Yaratıcı yazma
+- Eğitim materyalleri
+- Çocuk masalları
+- Senaryo taslakları
+
+---
+
+### 1️⃣7️⃣ [Recipe Suggestion with OpenAI](./NetCoreAI.Project17.RecipeSuggestionWithOpenAI) 🍳
+ASP.NET Core MVC web uygulaması ile malzemelere göre yemek tarifi önerisi.
+
+**Özellikler:**
+- ✅ ASP.NET Core MVC web arayüzü
+- ✅ OpenAI GPT-4 ile tarif önerisi
+- ✅ Malzeme bazlı arama
+- ✅ Responsive tasarım
+
+**Kullanım Alanları:**
+- Evdeki malzemeleri değerlendirme
+- Yeni tarifler keşfetme
+- Menü planlama
+- Mutfak yönetimi
+
+---
+
 ## 🚀 Hızlı Başlangıç
 
 ### Gereksinimler
 
 - [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0)
-- [OpenAI API Key](https://platform.openai.com/api-keys) (Project 01, 02, 03, 06, 08, 09, 10 için)
+- [OpenAI API Key](https://platform.openai.com/api-keys) (Project 01, 02, 03, 06, 08, 09, 10, 11, 12, 13, 15, 16, 17 için)
 - [Tesseract OCR Engine](https://github.com/UB-Mannheim/tesseract/wiki) (Project 04 için)
-- [Google Cloud Account](https://console.cloud.google.com/) (Project 05 için)
+- [Google Cloud Account](https://console.cloud.google.com/) (Project 05, 14 için)
 
 ### Kurulum
 
@@ -220,6 +339,30 @@ dotnet user-secrets set "OpenAI:ApiKey" "YOUR_API_KEY"
 # Project 10
 cd ../NetCoreAI.Project10.SentimentAIAppWithDegree
 dotnet user-secrets set "OpenAI:ApiKey" "YOUR_API_KEY"
+
+# Project 11
+cd ../NetCoreAI.Project11.ArticleSummarizeAI
+dotnet user-secrets set "OpenAI:ApiKey" "YOUR_API_KEY"
+
+# Project 12
+cd ../NetCoreAI.Project12.WebScrapingWithOpenAI
+dotnet user-secrets set "OpenAI:ApiKey" "YOUR_API_KEY"
+
+# Project 13
+cd ../NetCoreAI.Project13.PdfAnalyzeWithOpenAI
+dotnet user-secrets set "OpenAI:ApiKey" "YOUR_API_KEY"
+
+# Project 15
+cd ../NetCoreAI.Project15.OpenAINewsSummarizeWithRss
+dotnet user-secrets set "OpenAI:ApiKey" "YOUR_API_KEY"
+
+# Project 16
+cd ../NetCoreAI.Project16.CreateStoryWithAI
+dotnet user-secrets set "OpenAI:ApiKey" "YOUR_API_KEY"
+
+# Project 17
+cd ../NetCoreAI.Project17.RecipeSuggestionWithOpenAI
+dotnet user-secrets set "OpenAI:ApiKey" "YOUR_API_KEY"
 ```
 
 **Tesseract OCR için (Project 04):**
@@ -228,10 +371,12 @@ dotnet user-secrets set "OpenAI:ApiKey" "YOUR_API_KEY"
 2. Dil paketlerini indirin
 3. PATH değişkenine Tesseract klasörünü ekleyin
 
-**Google Cloud Vision için (Project 05):**
+**Google Cloud Vision için (Project 05, 14):**
 
 1. [Google Cloud Console](https://console.cloud.google.com/) üzerinden proje oluşturun
 2. Cloud Vision API'yi etkinleştirin
+
+**Project 05 için (Service Account):**
 3. Service Account oluşturun ve JSON key dosyasını indirin
 4. JSON dosyasını proje klasörüne yerleştirin
 
@@ -239,6 +384,15 @@ dotnet user-secrets set "OpenAI:ApiKey" "YOUR_API_KEY"
 # Project 05
 cd ../NetCoreAI.Project05.GoogleCloudVision
 # Program.cs dosyasında JSON dosya yolunu güncelleyin
+```
+
+**Project 14 için (API Key):**
+3. API Key oluşturun
+
+```bash
+# Project 14
+cd ../NetCoreAI.Project14.GoogleCloudVisionImageDetection
+dotnet user-secrets set "GoogleVisionApi:ApiKey" "YOUR_GOOGLE_API_KEY"
 ```
 
 3. **Projeleri çalıştırın:**
@@ -260,10 +414,12 @@ dotnet run
 |-----------|----------|----------|-----------------------|
 | .NET | 10.0 | Ana framework | Tüm projeler |
 | C# | 14.0 | Programlama dili | Tüm projeler |
-| OpenAI API | Latest | GPT, Whisper, DALL-E, TTS servisleri | 01, 02, 03, 06, 08, 09, 10 |
+| OpenAI API | Latest | GPT, Whisper, DALL-E, TTS servisleri | 01, 02, 03, 06, 08, 09, 10, 11, 12, 13, 15, 16, 17 |
 | Tesseract | 5.2.0 | OCR motoru (offline) | 04 |
-| Google Cloud Vision | 3.8.0 | Bulut tabanlı OCR ve görüntü analizi | 05 |
+| Google Cloud Vision | 3.8.0 | Bulut tabanlı OCR ve görüntü analizi | 05, 14 |
 | System.Speech | 10.0.3 | Offline TTS (Windows) | 07 |
+| HtmlAgilityPack | 1.12.4 | Web scraping | 12 |
+| PdfPig | 0.1.13 | PDF okuma | 13 |
 | User Secrets | 10.0.3 | Güvenli yapılandırma yönetimi | Tüm projeler |
 
 ## 🔒 Güvenlik
@@ -325,6 +481,13 @@ Her proje için detaylı README dosyaları mevcuttur:
 - 📄 [Project08 - Text to Speech with OpenAI README](./NetCoreAI.Project08.TextToSpeechWithOpenAI/README.md)
 - 📄 [Project09 - Sentiment Analysis README](./NetCoreAI.Project09.SentimentAIApp/README.md)
 - 📄 [Project10 - Advanced Sentiment Analysis README](./NetCoreAI.Project10.SentimentAIAppWithDegree/README.md)
+- 📄 [Project11 - Article Summarizer README](./NetCoreAI.Project11.ArticleSummarizeAI/README.md)
+- 📄 [Project12 - Web Scraping with OpenAI README](./NetCoreAI.Project12.WebScrapingWithOpenAI/README.md)
+- 📄 [Project13 - PDF Analyzer README](./NetCoreAI.Project13.PdfAnalyzeWithOpenAI/README.md)
+- 📄 [Project14 - Google Vision Image Detection README](./NetCoreAI.Project14.GoogleCloudVisionImageDetection/README.md)
+- 📄 [Project15 - RSS News Summarizer README](./NetCoreAI.Project15.OpenAINewsSummarizeWithRss/README.md)
+- 📄 [Project16 - Story Generator README](./NetCoreAI.Project16.CreateStoryWithAI/README.md)
+- 📄 [Project17 - Recipe Suggestion README](./NetCoreAI.Project17.RecipeSuggestionWithOpenAI/README.md)
 
 ## 🛠️ Geliştirme
 
@@ -372,6 +535,38 @@ NetCoreAI/
 │   ├── Program.cs
 │   ├── NetCoreAI.Project10.SentimentAIAppWithDegree.csproj
 │   └── README.md
+├── NetCoreAI.Project11.ArticleSummarizeAI/
+│   ├── Program.cs
+│   ├── NetCoreAI.Project11.ArticleSummarizeAI.csproj
+│   └── README.md
+├── NetCoreAI.Project12.WebScrapingWithOpenAI/
+│   ├── Program.cs
+│   ├── NetCoreAI.Project12.WebScrapingWithOpenAI.csproj
+│   └── README.md
+├── NetCoreAI.Project13.PdfAnalyzeWithOpenAI/
+│   ├── Program.cs
+│   ├── NetCoreAI.Project13.PdfAnalyzeWithOpenAI.csproj
+│   └── README.md
+├── NetCoreAI.Project14.GoogleCloudVisionImageDetection/
+│   ├── Program.cs
+│   ├── NetCoreAI.Project14.GoogleCloudVisionImageDetection.csproj
+│   └── README.md
+├── NetCoreAI.Project15.OpenAINewsSummarizeWithRss/
+│   ├── Program.cs
+│   ├── NetCoreAI.Project15.OpenAINewsSummarizeWithRss.csproj
+│   └── README.md
+├── NetCoreAI.Project16.CreateStoryWithAI/
+│   ├── Program.cs
+│   ├── NetCoreAI.Project16.CreateStoryWithAI.csproj
+│   └── README.md
+├── NetCoreAI.Project17.RecipeSuggestionWithOpenAI/
+│   ├── Controllers/
+│   ├── Services/
+│   ├── Views/
+│   ├── wwwroot/
+│   ├── Program.cs
+│   ├── NetCoreAI.Project17.RecipeSuggestionWithOpenAI.csproj
+│   └── README.md
 └── README.md
 ```
 
@@ -387,6 +582,28 @@ dotnet build NetCoreAI.Project01.OpenAIChat
 # Release modunda build
 dotnet build -c Release
 ```
+
+## 📊 Proje Özet Tablosu
+
+| # | Proje | Teknoloji | Tür | Seviye |
+|---|-------|-----------|-----|--------|
+| 01 | OpenAI Chat | GPT-3.5-turbo | Chatbot | Başlangıç |
+| 02 | Whisper Transcript | Whisper API | Ses → Metin | Orta |
+| 03 | DALL-E Image | DALL-E API | Metin → Görsel | Orta |
+| 04 | Tesseract OCR | Tesseract | Görsel → Metin | Başlangıç |
+| 05 | Cloud Vision OCR | Google Vision | Görsel → Metin | Orta |
+| 06 | OpenAI Translate | GPT-3.5-turbo | Çeviri | Başlangıç |
+| 07 | Text to Speech | System.Speech | Metin → Ses | Başlangıç |
+| 08 | TTS with OpenAI | OpenAI TTS | Metin → Ses | Orta |
+| 09 | Sentiment Analysis | GPT-3.5-turbo | Duygu Analizi | Başlangıç |
+| 10 | Advanced Sentiment | GPT-3.5-turbo | Duygu Analizi | Orta |
+| 11 | Article Summarizer | GPT-3.5-turbo | Özetleme | Orta |
+| 12 | Web Scraping AI | HtmlAgilityPack + GPT | Web Scraping | İleri |
+| 13 | PDF Analyzer | PdfPig + GPT | Belge Analizi | İleri |
+| 14 | Image Detection | Google Vision | Görsel Analizi | Orta |
+| 15 | RSS Summarizer | XML + GPT-4 | Haber Özetleme | İleri |
+| 16 | Story Generator | GPT-4-turbo | Yaratıcı Yazma | Orta |
+| 17 | Recipe Suggestion | ASP.NET MVC + GPT-4 | Web App | İleri |
 
 ## 🐛 Sorun Giderme
 
